@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="795338ab26b64e85b313a07544a70e7e" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.AspNetRoles" Width="1.5" PointX="1.5" PointY="12.5" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.AspNetUserClaims" Width="1.5" PointX="3" PointY="15" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.AspNetUserLogins" Width="1.5" PointX="3" PointY="17.75" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.AspNetUsers" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.Attachment" Width="1.5" PointX="7.5" PointY="3.375" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.Contact" Width="1.5" PointX="3" PointY="1.5" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.Folder" Width="1.5" PointX="3" PointY="7.5" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.Message" Width="1.5" PointX="5.25" PointY="1.125" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.Photo" Width="1.5" PointX="0.75" PointY="2.5" />
+        <EntityTypeShape EntityType="DB_A45D22_gogikoleModel.Tag" Width="1.5" PointX="7.5" PointY="1" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_Contact_AspNetUsers" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_Message_AspNetUsers" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_Attachment_Message" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_Contact_Photo" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_Message_Contact" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.FK_Message_Folder" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.AspNetUserRoles" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.MessageBcc" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.MessageCC" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.MessageTag" />
+        <AssociationConnector Association="DB_A45D22_gogikoleModel.MessageTo" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
